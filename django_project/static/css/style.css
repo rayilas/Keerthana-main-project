@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background: url(images/images2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+.wrapper{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+
+}
+.nav-logo p{
+    color: rgb(97, 61, 175);
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.nav-menu ul{
+    display: flex;
+}
+
+
+.nav-menu ul li .link{
+    text-decoration: none;
+    font-weight: 500;
+    color: #130f0f;
+    padding-bottom: 15px;
+    margin: 0 25px;
+   
+}
+.link :hover, .active{
+    border-bottom: 2px solid #fff;
+
+}
+.nav-button .btn{
+    width: 130px;
+    height: 40px;
+    font-weight: 500;
+    background: #ded3d3;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+#RegisterBtn{
+    margin-left: 15px;
+    text-decoration: none;
+
+}
+.btn.white-btn{
+    background: rgba(229, 230, 233);
+}
+.btn.btn.white-btn:hover{
+    background: rgba(229, 230, 233);
+
+}
+
+.nav-menu-btn{
+    display: none;
+}
+
+.form-box{
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.form-box input[type="text"],
+.form-box input[type="email"],
+.form-box input[type="password"],
+.form-box button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-box button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background-color: #0056b3;
+}
+
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+

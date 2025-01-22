@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KRTex</title>
+        
+        {%load static%}
+
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+            <body>
+             <div class="wrapper">
+                <nav class="nav">
+                    <div class="nav-logo">
+                        <p>KRTEXTILES</p>
+                    </div>
+                   
+                    <div class="nav-button">
+                        <button class="btn white-btn" id="loginBtn"> <a href="login.html">Sign In</a></button>
+                        <button class="btn" id="RegisterBtn"><a href="sigup.html">Sign Up</a></button>
+                    </div>
+                   
+                </nav>
+             
+             <form action="" class="form-box">
+                
+                <div class="two-forms">
+        
+                    <h2>SignUp Page</h2>
+        
+                    <div class="input-box">
+                        <label for="input-box">First Name</label>
+                        <input type="text" class="input-field" placeholder="Firstname">
+                        
+                    </div>
+                    <div class="input-box">
+                        <label for="input-box">Last Name</label>
+                        <input type="text" class="input-field" placeholder="Lastname">
+                    </div>
+                    
+                    <div class="input-box">
+                        <label for="input-box">Email</label>
+                        <input type="email" class="input-field" placeholder="Email" required>
+                        
+                    </div>
+                    <div class="input-box">
+                        <label for="input-box">Password</label>
+                        <input type="password" class="input-field" id="password" placeholder="Password" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="input-box">Conform Password</label>
+                        <input type="password" class="input-field" id="cpassword" placeholder="password" required>
+                    </div>
+                    
+                    <div>
+                        <button type="submit">submit</button> 
+                   </div>
+                   <div class="register-container" id="register">
+                    <span>Have an account? <a href="login.html" >Login</a></span>
+                    </div>
+        
+        
+                </div>
+                </div>
+             </div>
+             </form>
+            </body>
+        </html>
