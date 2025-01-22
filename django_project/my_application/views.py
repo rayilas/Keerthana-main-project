@@ -5,7 +5,7 @@ from .models import Datas
 
 
 
-def register(request):
+def signup(request):
     if request.method=='POST':
 
         Firstname=request.POST['Firstname']
