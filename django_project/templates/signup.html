@@ -16,8 +16,8 @@
                             </div>
                         
                             <div class="nav-button">
-                                <button class="btn white-btn" id="loginBtn"> <a href="login.html">Sign In</a></button>
-                                <button class="btn" id="RegisterBtn"><a href="sigup.html">Sign Up</a></button>
+                                <button class="btn white-btn" id="loginBtn"> <a href="{% url 'login' %}">Sign In</a></button>
+                                <button class="btn" id="RegisterBtn"><a href="{% url 'signup' %}">Sign Up</a></button>
                             </div>
                         
                         </nav>
@@ -58,7 +58,7 @@
                                 
                         </div>
                         <div class="register-container" id="register">
-                            <span>Have an account? <a href="login.html">Login</a></span>
+                            <span>Have an account? <a href="{% url 'login' %}">Login</a></span>
                             </div>
                 
                 
