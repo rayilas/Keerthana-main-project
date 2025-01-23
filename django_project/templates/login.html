@@ -24,20 +24,20 @@
             </div>
         </nav>
      
-     <form action="" class="form-box">
-        
+     <form action="" class="form-box" method="POST" >
+        {% csrf_token %}
         <div class="two-forms">
 
             <h2>Login Page</h2>
             
             <div class="input-box">
                 <label for="input-box">Email</label>
-                <input type="email" class="input-field" placeholder="Email" required>
+                <input type="email" class="input-field" name="Email" placeholder="Emailid" required>
                 
             </div>
             <div class="input-box">
                 <label for="input-box">Password</label>
-                <input type="password" class="input-field" id="password" placeholder="Password" required>
+                <input type="password" class="input-field" id="password" name="Password" placeholder="Password" required>
             </div>
             <div>
                 
