@@ -20,8 +20,7 @@ from Admin_panel import views
 
 urlpatterns = [
     path('admin/',admin.site.urls),
-    path('',views.home,name='Home'),
-    path('login',views.login,name='Login'),
-    path('Signup',views.register,name='Register'),
-   
-]
+    path('',views.SignupPage,name='signup'),
+    path('login',views.Loginpage,name='login'),
+    path('index',views.indexpage,name='index'),
+    path('logout',views.LogoutPage,name='logout')]

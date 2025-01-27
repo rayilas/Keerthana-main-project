@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Admin_panel',
-    'crispy_forms',
+    
 ]
 
 MIDDLEWARE = [
@@ -57,7 +57,7 @@ ROOT_URLCONF = 'django_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,"templates\Adminpanel")],
+        'DIRS': ["templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -124,9 +124,6 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
 
-CRISPY_TEMPLATE_PACK='bootstrap4'
-
-LOGIN_REDIRECT_URL='Home'
 
 
 # Default primary key field type
