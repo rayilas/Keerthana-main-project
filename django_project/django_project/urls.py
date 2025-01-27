@@ -21,6 +21,6 @@ from Admin_panel import views
 urlpatterns = [
     path('admin/',admin.site.urls),
     path('',views.SignupPage,name='signup'),
-    path('login',views.Loginpage,name='login'),
-    path('index',views.indexpage,name='index'),
-    path('logout',views.LogoutPage,name='logout')]
+    path('login/',views.Loginpage,name='login'),
+    path('index/',views.indexpage,name='index'),
+    path('logout/',views.LogoutPage,name='logout')]
